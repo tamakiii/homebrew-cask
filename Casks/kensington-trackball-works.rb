@@ -12,7 +12,7 @@ cask "kensington-trackball-works" do
   uninstall pkgutil: "com.kensington.trackballworks.pkg"
 
   zap trash: [
+    "~/Library/Application Support/Kensington",
     "~/Library/Preferences/com.kensington.trackballworks.plist",
-    "~/Library/Application Support/Kensington"
   ]
 end
